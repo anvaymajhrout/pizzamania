@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Paradise</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uiverseio/dist/uiverse.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Pizza Paradise</h1>
+        <div class="dropdown-container">
+            <label for="pizza-type" class="label">Select Your Pizza Type:</label>
+            <select id="pizza-type" class="styled-dropdown">
+                <option value="spicy">Spicy</option>
+                <option value="normal">Normal</option>
+                <option value="cheese">Cheese</option>
+                <option value="bbq">BBQ</option>
+                <option value="veggie">Veggie</option>
+                <option value="seafood">Seafood</option>
+                <option value="dessert">Dessert</option>
+                <option value="meatLovers">Meat Lovers</option>
+                <option value="glutenFree">Gluten Free</option>
+                <option value="vegan">Vegan</option>
+            </select>
+        </div>
+        <button id="generate-btn" class="ui-button">Generate Pizza</button>
+        <div id="result">
+            <h2 id="pizza-name">Your Pizza</h2>
+            <p id="pizza-toppings">Toppings will appear here</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

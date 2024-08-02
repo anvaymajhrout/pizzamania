@@ -1,0 +1,65 @@
+body {
+    font-family: 'Lobster', cursive;
+    background: linear-gradient(135deg, #ffcc33, #ff6699);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+    font-size: 3em;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+    color: #ffffff;
+}
+
+.styled-dropdown {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    border: none;
+    background-color: #ff6699;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.styled-dropdown:hover {
+    background-color: #ff3366;
+}
+
+#generate-btn {
+    margin-top: 20px;
+}
+
+#result {
+    margin-top: 30px;
+}
+
+#pizza-name {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+#pizza-toppings {
+    font-size: 1.2em;
+    color: #ffcc33;
+}
